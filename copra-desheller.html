@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pneumatic Copra Desheller | Rajat Gupta</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f8f8f8;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pneumatic Copra Desheller</h1>
+
+  <section>
+    <h2>Problem Context</h2>
+    <p>In rural South India, copra (dried coconut) is manually deshelled — a labor-intensive and time-consuming process. Industrial machines exist but are unaffordable for small-scale farmers. There’s a clear need for a safer, cheaper, modular solution.</p>
+  </section>
+
+  <section>
+    <h2>Project Objectives</h2>
+    <ul>
+      <li>Low-cost, lightweight, modular design</li>
+      <li>Use locally available components</li>
+      <li>Minimize user training</li>
+      <li>Automate with simple sensors and pneumatics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>System Overview</h2>
+    <p><strong>Sensor:</strong> IR proximity sensor detects copra placement</p>
+    <p><strong>Controller:</strong> Arduino Nano triggers air piston</p>
+    <p><strong>Actuator:</strong> Pneumatic piston cracks the shell</p>
+    <p><strong>Frame:</strong> Welded steel/aluminum with fixed shell cavity</p>
+    <p><strong>Power:</strong> 12V battery-powered compressor</p>
+  </section>
+
+  <section>
+    <h2>Key Engineering Decisions</h2>
+    <ul>
+      <li>Chose pneumatics for controllability and low maintenance</li>
+      <li>IR sensors provided non-contact, reliable detection</li>
+      <li>Arduino allowed flexible tuning of timing and logic</li>
+      <li>Shell cavity design protected the coconut meat from damage</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Results (Estimated)</h2>
+    <ul>
+      <li>Estimated time reduction: 35s → 10s per unit</li>
+      <li>Cost: under ₹5,000 (~$60 USD)</li>
+      <li>Repairable with local tools and materials</li>
+      <li>Safety delay reduces risk of accidental actuation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Future Improvements</h2>
+    <ul>
+      <li>Add force sensors for pressure feedback</li>
+      <li>Introduce foot-pedal override trigger</li>
+      <li>Optimize for different shell sizes and conditions</li>
+      <li>Document and open-source the build for NGOs</li>
+    </ul>
+  </section>
+
+  <section>
+    <p><a href="index.html">← Back to portfolio</a></p>
+  </section>
+</body>
+</html>
